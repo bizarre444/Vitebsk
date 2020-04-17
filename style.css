@@ -10,7 +10,6 @@ body {
 
 header, footer {
   background: red;
-  height: 65px;
   width: 100%;
   border-radius: 15px;
   margin: 0;
@@ -47,3 +46,75 @@ h3 {
   padding-top: 15px;
 }
 
+/* media */
+@media screen and (max-width: 992px) {
+  .container {
+    margin: 0;
+    padding: 0;
+    max-width: 100%;
+  }
+}
+
+@media screen and (max-width: 860px) {
+  .navbar {
+    padding: 0;
+  }
+  nav {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 762px) {
+  .navbar {
+    padding: 0;
+  }
+  .card-body {
+    padding: 0;
+  }
+  .card-title {
+    font-size: 16px;
+  }
+  .card-text {
+    font-size: 13px;
+    font-weight: 200;
+  }
+}
+
+@media screen and (max-width: 660px) {
+  .nav-link {
+    font-size: 14px;
+  }
+  
+}
+
+@media screen and (max-width: 632px) {
+  ul.nav {
+    display: none;
+  }
+  h2 {
+    margin-bottom: 25px;
+    font-size: 19px;
+  }
+  #price {
+    margin-top: 10px;
+  }
+  #services {
+    width: 100%;
+  }
+  main {
+    margin: 0;
+    width: 100%;
+    padding: 10px;
+  }
+}
+
+@media screen and (max-width: 415px) {
+  h1 {
+    font-size: 19px;
+    margin-top: 15px;
+  }
+  button {
+    margin: auto;
+    border: 1px solid black;
+  }
+}
